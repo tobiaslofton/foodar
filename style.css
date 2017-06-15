@@ -1,0 +1,33 @@
+/*My Mother would kill me if she caught me inline styling pretty straightforward what i did though just a touch of color*/
+
+body {
+  background: #7CA5B8;
+}
+
+h1 {
+  text-align: center;
+}
+
+.infoSection {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  border-radius: 1em;
+  margin-bottom: 20px;
+}
+.register {
+  background: #EFD6AC;
+}
+
+.order {
+  background: #E4F0D0;
+}
+
+.confirm {
+  background: #B1C5A9;
+}
