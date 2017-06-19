@@ -7,7 +7,7 @@ body {
 h1 {
   text-align: center;
 }
-
+/*Styles for the about page*/
 .infoSection {
   text-align: center;
   padding: 5px;
@@ -30,4 +30,14 @@ h1 {
 
 .confirm {
   background: #B1C5A9;
+}
+
+/*Style for the registration page*/
+.details, .address {
+  display: flex;
+  flex-direction: column;
+}
+
+.details input, .address input {
+  width: 10rem;
 }
