@@ -63,11 +63,17 @@ html {
 
 /*Home Page styles*/
 .logo {
-  border-bottom: solid black 2px;
+
 }
 
 .logo img {
   padding: 1rem;
+}
+
+.logo a {
+  float: right;
+font-size: 1.5rem;
+margin: 2rem;
 }
 
 .hero {
@@ -77,7 +83,6 @@ html {
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-
 }
 
 .heroText  {
@@ -96,7 +101,19 @@ html {
 
 
 /*Footer Styles*/
+#footer {
+  border-top: solid white 1px;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 
 .foodarFooter ul {
   list-style: none;
+}
+
+.foodarFooter div {
+  flex-grow: 1;
 }
