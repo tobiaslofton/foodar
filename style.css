@@ -38,6 +38,28 @@ h1 {
   flex-direction: column;
 }
 
+.address {
+  float: right;
+}
+
 .details input, .address input {
   width: 10rem;
+  padding: .3rem;
+  margin: .5rem 2rem 0 0;
+  border-radius: 4px;
+}
+
+.registerforms {
+  display: flex;
+}
+
+.submit {
+  margin-top: 1rem;
+}
+
+
+/*Footer Styles*/
+
+.foodarFooter ul {
+  list-style: none;
 }
