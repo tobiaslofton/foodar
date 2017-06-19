@@ -72,8 +72,12 @@ html {
 
 .logo a {
   float: right;
-font-size: 1.5rem;
-margin: 2rem;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.logo a:hover {
+  color: #00c;
 }
 
 .hero {
@@ -116,4 +120,8 @@ margin: 2rem;
 
 .foodarFooter div {
   flex-grow: 1;
+}
+
+.foodarFooter a:hover {
+  color: red;
 }
