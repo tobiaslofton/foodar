@@ -6,9 +6,7 @@ body {
   height: 100%
 }
 
-h1 {
-  text-align: center;
-}
+
 
 html {
   height: 100%;
@@ -64,11 +62,6 @@ html {
 }
 
 /*Home Page styles*/
-.banner {
-  background-color: #006E90;
-  height: 5rem;
-}
-
 .logo {
   border-bottom: solid black 2px;
 }
@@ -87,13 +80,21 @@ html {
 
 }
 
-.hero-text p {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.heroText  {
+  font-size: 2rem;
+  text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
   }
+
+  .cityZip {
+    text-align: center;
+  }
+
+
 /*Footer Styles*/
 
 .foodarFooter ul {
