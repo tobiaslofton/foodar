@@ -2,5 +2,7 @@
 
 function yourTotal() {
   var stylePrice = document.getElementById('style').value;
-  console.log('stylePrice');
+  console.log(stylePrice);
+  document.getElementsByClassName('total').innerHTML = stylePrice;
 }
+//Take the stylePrice and print that in the total.
