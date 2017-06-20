@@ -1,47 +1,97 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Request</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <script type= "text/javascript" src= "request.js"></script>
+  <title>Request</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script type="text/javascript" src="request.js"></script>
 </head>
-<body>
-<h1>SUBMIT YOUR REQUEST</h1>
-<p>Please fill out the form below</p>
 
-<div class="email">
-  <input type="email" name="" placeholder="example@example.com">
-</div>
+<body class="requestPage">
+  <h1>SUBMIT YOUR REQUEST</h1>
+  <p>Please fill out the form below</p>
 
-<div class="style">
+  <div class="email">
+    <input type="email" placeholder="example@example.com">
+  </div>
+
   <h3>Choose Your Style: </h3>
+  <div class="reqStyle">
+
     <div class="classic">
+      <h3>Classic</h3>
+      <p>This is a classic treatment</p>
+      <input type="radio" name="style" value="3" onclick="yourTotal()">
     </div>
 
     <div class="premium">
+      <h3>Premium</h3>
+      <p>Pinky's Up!</p>
+      <input type="radio" name="style" value="5" onclick="yourTotal()">
     </div>
 
     <div class="royal">
+      <h3>Royal</h3>
+      <p>Your food is served on a silver platter. Literally.</p>
+      <input type="radio" name="style" value="10" onclick="yourTotal()">
     </div>
-</div>
 
-<div class="restaurant">
-  <h3>Restaurant</h3>
-  <input type="text" name="" placeholder="Name">
-</div>
+  </div>
 
-<div class="tip">
+  <div class="restaurant">
+    <h3>Restaurant: </h3>
+    <input type="text" name="" placeholder="Name">
+  </div>
+
   <h3>Tip: </h3>
-  <div class="10">
+  <div class="tip">
+
+    <div class="ten">
+      <h2>10%</h2>
+      <p>The job was done.</p>
+      <input type="radio" name="tip" value="10">
+    </div>
+
+    <div class="fifteen">
+      <h2>15%</h2>
+      <p>They made you feel like you were somebody</p>
+      <input type="radio" name="tip" value="15">
+    </div>
+
+    <div class="twenty">
+      <h2>20%</h2>
+      <p>If you were made of money, you'd give more</p>
+      <input type="radio" name="tip" value="20">
+    </div>
   </div>
 
-  <div class="15">
+  <div class="total">
+      <p>Total: </p>
   </div>
 
-  <div class="20">
-  </div>
-</div>
+  <div id="footer" class="foodarFooter">
 
+    <div class="links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="request.html">Request</a></li>
+      </ul>
+    </div>
+
+    <div class="legal">
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+      </ul>
+    </div>
+
+    <div class="lols">
+      <a href="#">Lucky you!</a>
+    </div>
+  </div>
 
 </body>
+
 </html>

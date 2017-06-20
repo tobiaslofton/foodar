@@ -6,12 +6,13 @@ body {
   height: 100%
 }
 
-
-
 html {
   height: 100%;
 }
+
+
 /*Styles for the about page*/
+
 .infoSection {
   text-align: center;
   padding: 5px;
@@ -24,6 +25,7 @@ html {
   border-radius: 1em;
   margin-bottom: 20px;
 }
+
 .register {
   background: #EFD6AC;
 }
@@ -36,7 +38,9 @@ html {
   background: #B1C5A9;
 }
 
+
 /*Style for the registration page*/
+
 .details, .address {
   display: flex;
   flex-direction: column;
@@ -61,10 +65,10 @@ html {
   margin-top: 1rem;
 }
 
-/*Home Page styles*/
-.logo {
 
-}
+/*Home Page styles*/
+
+.logo {}
 
 .logo img {
   padding: 1rem;
@@ -89,30 +93,97 @@ html {
   width: 100%;
 }
 
-.heroText  {
+.heroText {
   font-size: 2rem;
   text-align: center;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   color: white;
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
-  .cityZip {
-    text-align: center;
-  }
+.cityZip {
+  text-align: center;
+}
 
 
-/*Styles for the Request Page*/
+/************************** Styles for the Request Page ************************/
+
+.requestPage {
+  text-align: center;
+}
+
+.reqStyle {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-basis: 600px;
+}
+
+.reqStyle div {
+  margin: 10px;
+  border-radius: 10px;
+}
 
 .classic {
   width: 200px;
-  height: 200px;
-  background-color: #19647E;
+  height: 150px;
+  background-color: #F8F4E3;
+  flex-grow: 1;
 }
 
-/*Footer Styles*/
+.premium {
+  width: 200px;
+  height: 150px;
+  background-color: #D4CDC3;
+  flex-grow: 1;
+}
+
+.royal {
+  width: 200px;
+  height: 150px;
+  background-color: #EEF5DB;
+  flex-grow: 1;
+}
+
+.tip {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.tip div {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.ten {
+  width: 200px;
+  height: 150px;
+  background-color: #D4CDC3;
+  flex-grow: 1;
+}
+
+.fifteen {
+  width: 200px;
+  height: 150px;
+  background-color: #EEF5DB;
+  flex-grow: 1;
+}
+
+.twenty {
+  width: 200px;
+  height: 150px;
+  background-color: #F8F4E3;
+  flex-grow: 1;
+}
+
+.total p {
+  font-size: 3rem;
+}
+/********************************** Footer Styles ********************************************/
+
 #footer {
   border-top: solid white 1px;
   margin-top: 3rem;
@@ -120,7 +191,6 @@ html {
   justify-content: center;
   text-align: center;
 }
-
 
 .foodarFooter ul {
   list-style: none;
