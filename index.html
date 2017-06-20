@@ -3,6 +3,7 @@
 <head>
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type= "text/javascript" src= "function.js"></script>
 </head>
 <body>
   <div class="logo">
@@ -20,8 +21,8 @@
   <div class="cityZip">
     <h3>Find a driver near you!</h3>
     <p>Type in your zipcode below and click Go! to find a driver near you!</p>
-    <input type= "text" placeholder= "12345" maxlength="5">
-    <input type="submit" value="Go!">
+    <input id="zipper" type= "text"  maxlength="5" placeholder="11111">
+    <input id="go" type="submit" onclick="validateZip()" value="Go!">
   </div>
 
   <div id="footer" class="foodarFooter">
@@ -46,6 +47,7 @@
     <a href="#">Lucky you!</a>
   </div>
 </div>
+
 
 </body>
 
