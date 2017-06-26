@@ -95,7 +95,7 @@ html {
 }
 
 .hero {
-  background-image: url("images/heroFood.jpg");
+  background-image: url("../images/heroFood.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -115,7 +115,7 @@ html {
 
 .cityZip {
   text-align: center;
-  background: url("images/cityDriver.jpg") no-repeat fixed center;
+  background: url("../images/cityDriver.jpg") no-repeat fixed center;
   height: 500px;
   display: flex;
   justify-content: center;
@@ -128,9 +128,32 @@ html {
   text-align: center;
   width: 10rem;
   height: 1.5rem;
-  border-radius: 4px;We
+  border-radius: 4px;
 }
 
+.featured {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: center;
+}
+
+.featuredRest {
+  margin: 2rem;
+  border-radius: 4px;
+  height: 400px;
+  width: 400px;
+}
+
+.featuredRest img {
+  border-radius: 4px;
+}
+
+.featuredTitle {
+  text-align: center;
+  padding-top: 4rem;
+}
 
 
 /************************** Styles for the Request Page ************************/
