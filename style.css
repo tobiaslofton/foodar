@@ -3,7 +3,8 @@
 body {
   background: #7CA5B8;
   margin: 0;
-  height: 100%
+  height: 100%;
+  width: 100%;
 }
 
 html {
@@ -12,6 +13,10 @@ html {
 
 
 /*Styles for the about page*/
+
+.i {
+  text-align: center;
+}
 
 .infoSection {
   text-align: center;
@@ -59,6 +64,8 @@ html {
 
 .registerforms {
   display: flex;
+  width: 400px;
+  margin: 0 auto;
 }
 
 .submit {
@@ -68,7 +75,10 @@ html {
 
 /*Home Page styles*/
 
-.logo {}
+.logo {
+  background: #EFF9F0;
+  opacity: 0.8;
+}
 
 .logo img {
   padding: 1rem;
@@ -105,10 +115,31 @@ html {
 
 .cityZip {
   text-align: center;
+  background: url("images/cityDriver.jpg") no-repeat fixed center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 
 /************************** Styles for the Request Page ************************/
+
+.email input {
+  width: 350px;
+  height: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.restaurant input {
+  width: 350px;
+  height: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
 
 .requestPage {
   text-align: center;
@@ -182,14 +213,17 @@ html {
 .total p {
   font-size: 3rem;
 }
+
+
 /********************************** Footer Styles ********************************************/
 
 #footer {
-  border-top: solid white 1px;
+  border-top: solid #F8F4E3 1px;
   margin-top: 3rem;
   display: flex;
   justify-content: center;
   text-align: center;
+  padding-top: 5rem;
 }
 
 .foodarFooter ul {
